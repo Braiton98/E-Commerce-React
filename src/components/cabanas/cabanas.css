@@ -1,0 +1,10 @@
+.cab{
+    border-width: 1px;
+    border-style: outset ;
+    width: max-content;
+}
+
+.pCabanas{
+    border-radius: 5px;
+    border: 1px solid red;
+}
