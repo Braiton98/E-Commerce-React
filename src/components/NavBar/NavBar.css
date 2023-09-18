@@ -1,5 +1,42 @@
-nav{
+.navBar{
     display: flex;
+    justify-content: space-between;
+}
+
+.navItems{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    border: 1px solid blue;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    transform: translateX(-110%);
+    transition: 0.3s ease all;
+}
+
+.bi{
+    width: 40px !important;
+    height: 40px !important;
+    color: white !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+} 
+
+.bi:hover{
+    cursor: pointer;
+}
+
+.close{
+    display: none !important;
+}
+
+.open{    
+    transform: translateX(0) !important;
+    position:fixed !important;
+    z-index: 50;
 }
