@@ -1,17 +1,10 @@
-.h1Home{
+h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-decoration: line-through;
+    text-align: center;
 }
 
 .h2Home{
     text-decoration: underline;
-}
-
-.pHome{
-    width: 50%;
-    border: 1px dashed blueviolet;
-    border-radius: 5px;
-    overflow: hidden;
 }
 
 .imgsContainer{

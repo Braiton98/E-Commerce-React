@@ -7,3 +7,8 @@
 body{
     background: linear-gradient(to right, #DECBA4, #3E5151);
 }
+
+.links{
+    color: aliceblue;
+    text-decoration: none;
+}
