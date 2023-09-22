@@ -1,4 +1,5 @@
 import './Promos.css'
+import { Countdown } from '../contrarreloj/Contrarreloj';
 
 function Promos() {
 
@@ -6,6 +7,8 @@ function Promos() {
     <>
     <h2>Promos</h2>
     <p>Las siguientes ofertas son por un corto período de tiempo:</p>
+    <hr/>
+    <Countdown/>
     </>
   )
 }
